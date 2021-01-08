@@ -1,0 +1,146 @@
+body {
+    font-family: 'lato', Helvetica, sans-serif;
+    font-size: 18px;
+    background-color: dimgray;  
+    margin-left: 2%;
+    margin-right: 2%;
+    padding:0px;
+    }
+ul {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+        background-color: #333;
+        position: -webkit-sticky; /* Safari */
+        position: sticky;
+        top: 0;
+        width: 100%;
+
+    }
+li {
+        float: left;
+    }
+      
+li a {
+        display: block;
+        color: white;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+    }     
+li a:hover {
+        background-color: #111;
+    }
+      
+.active {
+        background-color: #213057;
+}
+main {
+    background-color:  rgb(209, 212, 214);
+    float: left;
+    width: 70%;
+    height: auto;
+    overflow: hidden;  
+    scroll-behavior: smooth;
+    
+}
+div img{
+    width: 30%;
+    height: auto;
+    float: left;
+    margin: 0;
+    background-color:rgb(29, 29, 29);  
+}
+#home{
+    height: 100%;
+    padding-top: 10px;
+}
+
+#home h1{
+    text-align: center;
+    font-weight: bold;
+    font-size: 50px;
+    padding-top: 10px;
+    
+}
+div p{
+    padding-left: 20px;
+    padding-right: 20px;
+
+}
+p.center{
+    text-align: justify;
+
+}
+#profile{
+    height: 100%;
+    padding-top: 5px;
+ 
+}
+table{
+    padding-left: 30px;
+}
+div h2{
+    padding-top: 20px;
+    padding-left: 20px;
+}
+
+.button{
+ 
+    text-align: center;
+    background-color: silver;
+    border: none;
+    padding: 16px 32px;
+    text-decoration: none;
+    margin: 4px 2px;
+
+}
+.bar-grey{
+    background-color: rgb(153, 149, 149);
+    text-align: center;
+    margin-left: 50px;
+    margin-right: 50px;
+    height: 50px;
+}
+#portfolio{
+    height: 100%;
+    padding-top: 5px;
+} 
+
+#contact{
+    height: 100%;
+    padding-top: 5px;
+} 
+.contact{
+    padding-left: 30px;
+}
+.form{
+    width: 60%;
+    padding: 12px 20px;
+    margin: 2px 0;
+    box-sizing: border-box;
+}
+footer{
+    clear: both;
+    background-color: rgb(29, 29, 29);
+    padding: 2px;
+    margin:0;
+}
+footer p{
+    color: whitesmoke;
+    text-align: center;
+}
+
+@media screen and (max-width: 600px){
+    body{
+         margin: 0px;
+        }
+    .nav{
+        width:100%;
+        height: auto;
+        }
+    main{
+        width:100%;
+        }
+    }
